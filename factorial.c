@@ -11,3 +11,4 @@ void main()
 	printf("Factorial of %d = %d",n,fact);
 	printf("\n");
 }
+
