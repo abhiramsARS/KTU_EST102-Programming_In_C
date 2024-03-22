@@ -9,5 +9,5 @@ void main()
 	    rev=rev*10+(n%10);
 	    n=n/10;
 	}
-	printf("Sum of Digits =%d",rev);
+	printf("Reverse =%d",rev);
 }
