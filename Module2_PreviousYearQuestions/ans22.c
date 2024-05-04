@@ -11,13 +11,15 @@ float fact(int n)
 /*======================================================================================================================*/
 void main()
 {
-	int x=1,n;
-	float i,sum=0;
+int x=1,n,i;
+	float sum=0;
 	printf("Enter limit =");
 	scanf("%d",&n);
 	
+	printf("\nExpression : ");
 	for(i=1;i<=n;i++){
 		int p=1;
+		printf("(%d / %d!) +",i,x);		//Optional
 		sum=sum+i/fact(x);
 		x=x+2;
 	}
@@ -31,5 +33,6 @@ Output :-
 >>>a.exe
 Enter limit =3
 
+Expression : (1 / 1!) +(2 / 3!) +(3 / 5!) +
 Answer = 1.358333
 */
