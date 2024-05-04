@@ -22,7 +22,7 @@ void main()
 {
 	int x,n,i;
 	float sum=0;
-	printf("Enter value of x =");
+	printf("\nEnter value of x =");
 	scanf("%d",&x);
 	printf("Enter limit =");
 	scanf("%d",&n);
@@ -31,7 +31,7 @@ void main()
 		int p=1;
 		sum=sum+(power(x,i)/fact(i));
 	}
-	printf("\n\nAnswer = %f",sum);
+	printf("\nAnswer = %f",sum);
 	
 }
 
@@ -41,10 +41,10 @@ Output:-
 
 >>> gcc m2_ans15.c -o a.exe
 >>> a.exe
+
 Enter value of x =1
 Enter limit =5
 
-
 Answer = 0.175000
-E:\notepad++\cPrograming>
+
 */
