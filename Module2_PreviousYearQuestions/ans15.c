@@ -27,8 +27,10 @@ void main()
 	printf("Enter limit =");
 	scanf("%d",&n);
 	
+	printf("Expression : %d-",x);	// Optional				
 	for(i=3;i<=n;i=i+2){
 		int p=1;
+		printf("(%d^%d/%d!) +",x,i,i);	// Optional
 		sum=sum+(power(x,i)/fact(i));
 	}
 	printf("\nAnswer = %f",x-sum);
@@ -44,7 +46,7 @@ Output:-
 
 Enter value of x =1
 Enter limit =5
-
+Expression : 1-(1^3/3!) +(1^5/5!) +
 Answer = 0.825000
 
 */
