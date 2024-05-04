@@ -16,10 +16,10 @@ int x=1,n,i;
 	printf("Enter limit =");
 	scanf("%d",&n);
 	
-	printf("\nExpression : ");
+	printf("\nExpression : "); 	//Optional
 	for(i=1;i<=n;i++){
 		int p=1;
-		printf("(%d / %d!) +",i,x);		//Optional
+		printf("(%d / %d!) +",i,x);	//Optional
 		sum=sum+i/fact(x);
 		x=x+2;
 	}
