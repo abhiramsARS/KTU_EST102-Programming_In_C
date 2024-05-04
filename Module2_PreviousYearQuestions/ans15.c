@@ -31,7 +31,7 @@ void main()
 		int p=1;
 		sum=sum+(power(x,i)/fact(i));
 	}
-	printf("\nAnswer = %f",sum);
+	printf("\nAnswer = %f",x-sum);
 	
 }
 
@@ -45,6 +45,6 @@ Output:-
 Enter value of x =1
 Enter limit =5
 
-Answer = 0.175000
+Answer = 0.825000
 
 */
