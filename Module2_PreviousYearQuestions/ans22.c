@@ -24,3 +24,12 @@ void main()
 	printf("\nAnswer = %f",sum);
 	
 }
+
+/*
+Output :-
+>>>gcc m2_ans22.c -o a.exe
+>>>a.exe
+Enter limit =3
+
+Answer = 1.358333
+*/
